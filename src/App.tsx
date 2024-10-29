@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="fond">
       <video src={videoBg} autoPlay loop muted />
-      <main className="Content">
+      <main className="header">
         <section className="title">
           <h1>Bienvenue</h1>
           <p>sur mon Portfolio</p>
@@ -22,6 +22,9 @@ function App() {
               projectlink={project.projectlink}
             />
           ))}
+        </section>
+        <section className="Footer">
+          <p>&copy; Joey Martin 2024</p>
         </section>
       </main>
     </div>

@@ -6,11 +6,11 @@ interface CardInterface {
 
 function ProjectCards({ projectname, projectimg, projectlink }: CardInterface) {
   return (
-    <section className="Card">
+    <section className="card">
       <h1>{projectname}</h1>
       <img src={projectimg} alt={"Image de" + projectname} />
       <div className="links">
-        <a href={projectlink}>{projectname}</a>
+        <a href={projectlink}>lien {projectname}</a>
       </div>
     </section>
   );
