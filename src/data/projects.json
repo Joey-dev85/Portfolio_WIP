@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "projectname": "Solo Rush 1",
+    "projectlink": "https://joey-dev85.github.io/Solo_Rush1/",
+    "projectimg": "./public/img/Solo_rush_img.png"
+  },
+  {
+    "id": 2,
+    "projectname": "Projet HTML/CSS/JS",
+    "projectlink": "https://ryandecian.github.io/wild-eat2/",
+    "projectimg": "./public/img/Wild_Eat_2.png"
+  }
+]
