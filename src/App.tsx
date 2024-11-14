@@ -1,7 +1,8 @@
-import NavBar from "./Navbar";
 import videoBg from "../public/fond_Solo.mp4";
 import projects from "./data/projects.json";
 import ProjectCards from "./ProjectCards";
+import Skills from "./Skills";
+import skills from "./data/skills.json";
 
 function App() {
   return (
@@ -12,7 +13,25 @@ function App() {
           <h1>Bienvenue</h1>
           <p>sur mon Portfolio</p>
         </section>
-        <NavBar />
+        <section className="skill">
+          {skills.map((skill) => (
+            <Skills
+              key={skill.id}
+              skillname={skill.skillname}
+              skillimg={skill.skillimg}
+            />
+          ))}
+        </section>
+        <p className="presentation">
+          Ancien directeur d'accueil de loisirs, j'ai choisi
+          <br /> de me reconvertir dans le développement web
+          <br /> car j'aime bien créer, je ne suis pas forcément
+          <br /> doué pour des activités manuelles, mais je me
+          <br />
+          débrouille avec un clavier et une souris donc je
+          <br />
+          le met à profit !
+        </p>
         <section className="cards">
           {projects.map((project) => (
             <ProjectCards
@@ -23,7 +42,7 @@ function App() {
             />
           ))}
         </section>
-        <section className="Footer">
+        <section className="footer">
           <p>&copy; Joey Martin 2024</p>
         </section>
       </main>
