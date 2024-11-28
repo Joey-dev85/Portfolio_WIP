@@ -1,4 +1,4 @@
-import videoBg from "../public/fond_Solo.mp4";
+import videoBg from "/fond_Solo.mp4";
 import projects from "./data/projects.json";
 import ProjectCards from "./ProjectCards";
 import Skills from "./Skills";

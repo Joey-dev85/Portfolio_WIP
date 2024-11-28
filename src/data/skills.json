@@ -1,27 +1,27 @@
 [
-    {
-      "id": 1,
-      "skillname": "HTML",
-      "skillimg": "./public/img/html.webp"
-    },
-    {
-      "id": 2,
-      "skillname": "CSS",
-      "skillimg": "./public/img/CSS3.png"
-    },
-    {
-      "id": 3,
-      "skillname": "JS",
-      "skillimg": "./public/img/jsc.svg"
-    },
-    {
-      "id": 4,
-      "skillname": "nodeJS",
-      "skillimg": "./public/img/nodejs.jpg"
-    },
-    {
-      "id": 5,
-      "skillname": "React",
-      "skillimg": "./public/img/React.svg"
-    }
-  ]
+  {
+    "id": 1,
+    "skillname": "HTML",
+    "skillimg": "/img/html.webp"
+  },
+  {
+    "id": 2,
+    "skillname": "CSS",
+    "skillimg": "/img/CSS3.png"
+  },
+  {
+    "id": 3,
+    "skillname": "JS",
+    "skillimg": "/img/jsc.svg"
+  },
+  {
+    "id": 4,
+    "skillname": "nodeJS",
+    "skillimg": "/img/nodejs.jpg"
+  },
+  {
+    "id": 5,
+    "skillname": "React",
+    "skillimg": "/img/React.svg"
+  }
+]
